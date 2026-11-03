@@ -5,17 +5,24 @@
 <title>Swapna Bojja</title>
 <style>
 body{margin:0;background:#111;display:flex;justify-content:center;padding:20px;font-family:system-ui}
-.card{background:#fff;border-radius:20px;padding:30px;text-align:center;max-width:350px}
+.card{background:#fff;border-radius:22px;padding:28px 20px;text-align:center;max-width:360px;width:100%}
+.profile{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid #a855f7;margin:0 auto;display:block}
+.tags{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:16px 0}
+.tag{background:#f5f0ff;border:1px solid #e9d5ff;padding:6px 12px;border-radius:16px;font-size:13px}
 h1{font-size:26px}
-.btn{display:block;background:#a855f7;color:#fff;padding:12px;border-radius:20px;text-decoration:none;margin:10px 0}
+.btn{display:block;background:#a855f7;color:#fff;padding:12px;border-radius:20px;text-decoration:none;margin:10px 0;font-weight:700}
+.btn2{background:#fff;color:#333;border:1px solid #ddd}
 </style>
 </head>
 <body>
 <div class="card">
+<img class="profile" src="profile.jpg" alt="Swapna">
 <h1>Hi, I'm Swapna Bojja 👋</h1>
 <p>Web Developer | Student</p>
 <p>I'm passionate about creating beautiful websites.</p>
-<a class="btn" href="#">Contact Me</a>
+<div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Python</span></div>
+<a class="btn" href="mailto:swapna@email.com">Contact Me</a>
+<a class="btn btn2" href="#">My Projects</a>
 </div>
 </body>
 </html>
